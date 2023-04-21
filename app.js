@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 const path=require("path")
 const dotenv=require("dotenv")
-dotenv.config({ path : "./.env"})
+dotenv.config({ path : "./e/.env"})
 app.get("/" , (req,res)=>{
     res.send("hello satyam ")
 })
